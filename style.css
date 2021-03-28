@@ -19,8 +19,7 @@ header{
 
 /* nav */
 nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
     padding-right: 0;
 }
@@ -32,6 +31,7 @@ nav {
 a{
     text-decoration: none;
     color: black;
+    
 }
 
 nav ul {
@@ -143,7 +143,14 @@ nav ul li:hover {
         border-radius: 60px;
         padding: 0.9em;
         padding-left: 0;
+        transition: all .1s ease-in-out;
     }
+
+    .main-span:hover{
+    
+        transform: scale(1.1);
+     }
+
 .icon-fa{
     background-color: #deebff;
     padding: 17px 15px 17px 16px;
@@ -243,7 +250,12 @@ nav ul li:hover {
     height: 200px;
     border-radius: 20px;
     /* margin-bottom: 15px; */
+    transition: transform 0.5s;
     
+}
+
+.box:hover{
+    transform: scale(0.90);
 }
 
 /* ASIDE */
@@ -284,7 +296,12 @@ nav ul li:hover {
     height: 140px;
     border-radius: 20px;
     margin-bottom: 35px;
+    transition: transform 0.5s;
 
+}
+
+.boxpopulaires:hover{
+    transform: scale(0.90);
 }
 
 h3{
@@ -307,3 +324,13 @@ h4{
 #nuit-populaire{
     margin-top: -20px;
 }
+
+.etoiles{
+    font-size: 0.7em;
+    color: #0065fc;
+}
+
+.etoilegrise{
+    color: rgb(201, 201, 201);
+}
+
