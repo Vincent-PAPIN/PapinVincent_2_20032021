@@ -362,8 +362,45 @@ h4{
     border-radius: 20px;
     margin-bottom: 35px;
     margin-right: 5%;
-    box-shadow: 2px 2px 20px
+    box-shadow: 2px 2px 20px;
+    transition: transform 0.5s;
     
+}
+
+.boxactivités1:hover{
+    transform: scale(0.90);
+}
+
+.image1{
+    transition: transform 0.5s;
+}
+
+.image1:hover{
+    transform: scale(0.90);
+}
+
+.image2{
+    transition: transform 0.5s;
+}
+
+.image2:hover{
+    transform: scale(0.90);
+}
+
+.image3{
+    transition: transform 0.5s;
+}
+
+.image3:hover{
+    transform: scale(0.90);
+}
+
+.image4{
+    transition: transform 0.5s;
+}
+
+.image4:hover{
+    transform: scale(0.90);
 }
 
 .images-activités_a{
@@ -394,6 +431,10 @@ h4{
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+h5{
+    font-size: 1vw;
 }
 
 /* Footer */
