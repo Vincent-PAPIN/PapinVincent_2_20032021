@@ -163,7 +163,8 @@ nav ul li:hover {
 
 @media all and (max-width: 768px){
     header{
-        margin: 30px 20px 0 20px;
+        /* margin: 30px 20px 0 0px; */
+        padding-bottom: 30px;
 		 align-items: flex-start;  
     }
 
@@ -186,19 +187,37 @@ nav ul li:hover {
 			margin: 0;
 		}
 
-		nav li
+		nav ul li
 		{
 			border-bottom: 2px solid #F2F2F2;
 			padding-bottom: 20px;
 			width: 100%;
 			text-align: center;
-			margin: 30px -20px 0 -20px;
+			margin: 30px -10px 0 -30px;
 		}
 
         nav li:hover
 		{
 			border-bottom: 2px solid #0065FC ;
 		}
+
+        .filtertitle{
+            width: 100%;
+        }
+
+        .charticon{
+            margin: -72% 0 0 0;
+        }
+
+        .boxpopulaires img{
+            width: 45%;
+            margin: 0px 10px 0 0px;
+        }
+
+        .etoiles{
+            margin-top: 10%;
+        }
+        
 
 
     .Hebergements{
@@ -207,6 +226,7 @@ nav ul li:hover {
 	    flex-direction: column;
     }
     .container{
+        margin: 0 10px 0 10px;
         order: 2;
         background-color: white !important;
         
@@ -219,8 +239,13 @@ nav ul li:hover {
     }
 
     .box{
-        width: 100% !important;
-        margin: 0 !important;
+        min-width: 140% ;
+        margin: 0 ;
+        box-shadow: 4px 2px 20px rgb(201, 201, 201);
+    }
+
+    .box img{
+        width: 100%;
     }
 
     .populaires{
@@ -239,6 +264,8 @@ nav ul li:hover {
     .boxpopulaires{
         width: 85% !important;
     }
+
+    
 
    
 }
@@ -315,9 +342,14 @@ nav ul li:hover {
     margin-left: 4%;
 }
 
+.Hebergements{
+    display: flex;
+}
+
 .container{
     margin-bottom: 5%;
     margin-left: 35px;
+    margin-right: 4%;
     background-color: #f2f2f2;
     border-radius: 25px;
     width: 60%;
@@ -348,11 +380,11 @@ nav ul li:hover {
 
 .images{
     height: 120px;
-    max-width: 100%;
-    width: 260px;
+    /* max-width: 100%; */
+    width: 100%;
      /* max-width: 50%;
     max-height: 500px; */
-    margin-right: 50%; 
+    /* margin-right: 50%;  */
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -364,7 +396,7 @@ nav ul li:hover {
     margin-bottom: 8%;
     padding: 0.35em;
     background-color: white;
-    width: 14vw;
+    width: 25%;                        
     height: 200px;
     border-radius: 20px;
     /* margin-bottom: 15px; */
@@ -381,7 +413,7 @@ nav ul li:hover {
 .populaires{
 
     
-    margin-left: 66%;
+    /* margin-left: 66%; */
     background-color: #f2f2f2;
     border-radius: 25px;
     border: solid #f2f2f2 2px;
@@ -389,7 +421,7 @@ nav ul li:hover {
     width: 30%;
     height: 670px;
     top: 20.2vw;
-    position: absolute;
+    /* position: absolute; */
     
 }
 
@@ -399,6 +431,13 @@ nav ul li:hover {
     flex-direction: column;
     
     
+}
+
+.charticon{
+    position: absolute;
+    top: 46%;
+    font-size: 25px;
+    right: 9%;
 }
 
 .images-populaires{
@@ -429,17 +468,17 @@ nav ul li:hover {
 
 h3{
     margin-top: 5px;
-    font-size: 1vw;
+    
 }
 
 #nuit{
-    font-size: .8vw;
+    
     position: absolute;
     margin-top: -18px;
 }
 
 h4{
-    font-size: 1vw;
+    /* font-size: 1vw; */
     margin-top: 5px;
     
 }
