@@ -13,7 +13,7 @@ nav ul li:hover {
 /* logo */
 
 header img {
-    margin: 1.5vw 1.5vw 1.5vw 3vw;
+    margin: 1.5vw 1.5vw 1.5vw 1.3vw;
     width: 100px;
     height: auto;
 }
@@ -21,7 +21,7 @@ header img {
 /* nav */
 
 nav {
-    display: -webkit-box;
+    
     display: flex;
     padding-right: 0;
 }
@@ -38,8 +38,6 @@ nav {
 }
 
 .menunav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -49,10 +47,7 @@ a {
     text-decoration: none;
     color: black;
 }
-/* p {
-    font-size: 1vw;
-    margin: 2px 0 10px 10px;
-} */
+
 
 nav ul {
     display: flex;
@@ -233,11 +228,7 @@ nav ul li {
 
 .images {
     height: 120px;
-    /* max-width: 100%; */
     width: 100%;
-    /* max-width: 50%;
-    max-height: 500px; */
-    /* margin-right: 50%;  */
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -267,7 +258,7 @@ nav ul li {
     border-radius: 25px;
     border: solid #f2f2f2 2px;
     width: 30%;
-    height: 670px;
+    height: 715px;
     top: 20.2vw;
     /* position: absolute; */
 }
@@ -280,7 +271,7 @@ nav ul li {
 
 .charticon {
     position: absolute;
-    top: 46%;
+    top: 49%;
     font-size: 25px;
     right: 9%;
 }
@@ -345,30 +336,25 @@ h4 {
     display: flex;
     justify-content: space-between;
     margin-left: 30px;
-    /* margin: 0 1.5vw 1vw ; */
     height: 31.5vw;
 }
 
 .boxactivités1 {
     width: 30%;
-    height: 90%;
-    padding-bottom: 2.3vw;
+    height: 86%;
+    padding-bottom: 1vw;
     border-radius: 20px;
-    /* margin-bottom: 35px; */
     margin-right: 50px;
     transition: transform 0.5s;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 2px 2px 20px rgb(230, 230, 230);
+    
 }
 
 .boxactivités1 img {
-    /* display: flex; */
-    /* margin: 0vw 0vw 1vw 10vw; */
-    /* background-color: #f2f2f2; */
-    /* padding-bottom: 10%; */
     max-width: 100%;
     width: 400px;
     height: calc(100% - 40px);
-    /* height: 470px; */
+    
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -381,7 +367,7 @@ h4 {
 .boxactivités2 {
     margin-bottom: 35px;
     margin-right: 5%;
-    /* box-shadow: 2px 2px 20px; */
+    
     border-radius: 20px;
     transition: transform 0.5s ease 0s;
 }
@@ -394,13 +380,12 @@ h4 {
     margin-bottom: 19%;
     margin-right: 5%;
     transition: transform 0.5s;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 2px 2px 20px rgb(230, 230, 230);
+    
 }
 
 .image1 img {
-    /* display: flex; */
-    /* background-color: #f2f2f2; */
-    /* padding-bottom: 1%; */
+    
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -414,19 +399,18 @@ h4 {
 
 .image2 {
     width: 110%;
-    /* margin-right: 3%; */
+    
     border-radius: 20px;
-    /* margin-bottom: 35px; */
+   
     padding-bottom: 2%;
     margin-right: 5%;
     transition: transform 0.5s;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 2px 2px 20px rgb(230, 230, 230);
+    
 }
 
 .image2 img {
-    /* display: flex; */
-    /* background-color: #f2f2f2; */
-    /* padding-bottom: 1%; */
+    
     width: 100%;
     height: 160px;
     object-fit: cover;
@@ -446,7 +430,8 @@ h4 {
     margin-bottom: 32%;
     margin-right: 5%;
     transition: transform 0.5s;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 2px 2px 20px rgb(230, 230, 230);
+    
 }
 
 .image3 img {
@@ -472,7 +457,8 @@ h4 {
     padding-bottom: 2%;
     margin-right: 5%;
     transition: transform 0.5s;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 2px 2px 20px rgb(230, 230, 230);
+    
 }
 
 .image4 img {
@@ -502,7 +488,7 @@ h4 {
 
 h5 {
     font-weight: bold;
-    font-size: 1.2vmax;
+    /* font-size: 1.2vmax; */
     margin-left: 1.4em;
     margin-top: 0.3em;
 }
@@ -523,14 +509,14 @@ footer {
     margin-left: 0px;
 }
 
-h6 {
+footer h6 {
     margin-left: 40px;
     padding-top: 2%;
-    font-size: 1.2vw;
+    font-size: 18px;
 }
 
 footer ul li {
-    font-size: 1vw;
+    /* font-size: 1vw; */
     list-style: none;
     margin-bottom: 1.2em;
 }
@@ -573,7 +559,8 @@ footer ul li {
         width: 100%;
     }
     .charticon {
-        margin: -72% 0 0 0;
+        position: absolute;
+        margin: -83% 0 0 0;
     }
     .boxpopulaires img {
         width: 45%;
@@ -590,7 +577,7 @@ footer ul li {
     .container {
         margin: 0 10px 0 10px;
         order: 2;
-        background-color: white !important;
+        background-color: white ;
     }
     #principal {
         flex-direction: column;
@@ -604,17 +591,17 @@ footer ul li {
         width: 100%;
     }
     .populaires {
-        border-radius: 0 !important;
+        border-radius: 0;
         order: 1;
-        position: relative !important;
-        width: 100% !important;
-        top: 0 !important;
-        margin-left: 0 !important;
+        position: relative;
+        width: 100% ;
+        top: 0 ;
+        margin-left: 0 ;
         margin-right: 0;
         padding-bottom: 15px;
     }
     .boxpopulaires {
-        width: 85% !important;
+        width: 85% ;
     }
 
     /* for content */
@@ -630,12 +617,7 @@ footer ul li {
 
 }
 .sectionactivités{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     height: auto;
     margin: 0;
@@ -644,97 +626,52 @@ footer ul li {
 }
 
 .boxactivités1{
-    width: 85%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-.boxactivités2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 85%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.image1{
-    width: 100%;
-    height: 190px;
-    margin-bottom: 25px;
+    width: 78%;
+    margin-left: 16%;
+    margin-bottom: 40px ;
 }
 
-.footer{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
+.boxactivités1 img{
+    height: 120px;
+    width: 100%;
+}
+
+.boxactivités2 {
+    flex-direction: column;
+    width: 70%;
+}
+
+.boxactivités2 img {
+    flex-direction: column;
+    height: 130px;
+    width: 100%;
+    
+}
+
+/* .boxactivités2 .image3 .image4 {
+    flex-direction: column;
+    height: 130px;
+    width: 100%;
+    
+} */
+
+footer{
+    
     flex-direction: column;
     padding-bottom: 10px;
 }
+
+footer h6{
+    font-size: 18px;
+}
     
 #titreactivité {
-    margin: 40px 0 40px 30px;
+    margin: 40px 0 40px 40px;
 }
 .container h2{
     margin: 35px 10px 10px 25px;
-    font-size: 4.5vmax;
+    /* font-size: 4.5vmax; */
 }
 
 
 }
-/* @media only screen and (max-width: 1024px) {
-
-    #logo img{
-        margin-top: 25px;
-        height: 40px ;
-    }
-
-    .menunav{
-        font-size: 18px;
-        margin-right: 22%;
-    }
-
-        .first-search {
-            margin-left: 1.5vw;
-        }
-
-        .first-search h1 {
-            font-size: 20px;
-        }
-        .first-search p {
-            margin-left: 0px;
-            margin-bottom: 20px;
-            font-size: 20px;
-        }
-        .allfilters {
-            margin: 20px;
-            font-size: 16px;
-        }
-        .search{
-            margin-left: 0px;
-        }
-
-        .container{
-            
-            height: 10%;
-        }
-
-        .asidepopulaires{
-            
-            width: 100%;
-        }
-    }
-
-    @media (max-width: 768px ){
-
-        #logo img{
-            margin-top: 20px;
-            height: 40px ;
-        }
-        .menunav{
-            font-size: 13px;
-            margin-right: 15%;
-        }
-
-    } */
