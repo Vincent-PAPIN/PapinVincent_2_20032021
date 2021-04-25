@@ -210,7 +210,7 @@ nav ul li {
 /* TITRES BOX */
 
 .titre-container {
-    padding-top: 50px;
+    padding-top: 25px;
     margin-left: 6%;
 }
 
@@ -258,7 +258,7 @@ nav ul li {
     border-radius: 25px;
     border: solid #f2f2f2 2px;
     width: 30%;
-    height: 715px;
+    height: 685px;
     top: 20.2vw;
     /* position: absolute; */
 }
@@ -560,7 +560,7 @@ footer ul li {
     }
     .charticon {
         position: absolute;
-        margin: -83% 0 0 0;
+        margin: -80% 0 0 0;
     }
     .boxpopulaires img {
         width: 45%;
@@ -647,13 +647,6 @@ footer ul li {
     width: 100%;
     
 }
-
-/* .boxactivités2 .image3 .image4 {
-    flex-direction: column;
-    height: 130px;
-    width: 100%;
-    
-} */
 
 footer{
     
