@@ -130,6 +130,11 @@ nav ul li {
     cursor: pointer;
 }
 
+#searchbutton{
+    
+    border: none;
+}
+
 /* section of icons */
 
 .filtres {
@@ -247,6 +252,12 @@ nav ul li {
 
 .box:hover {
     transform: scale(0.90);
+}
+
+.plusderesultats {
+    font-weight: bold;
+    font-size: 1.2vmax;
+    margin-left: 2.8vw;
 }
 
 /* ASIDE */
@@ -518,7 +529,11 @@ footer ul li {
     margin-bottom: 1.2em;
 }
 
-
+#searchbutton{
+    width: 50px;
+    color: white;
+    background-color: #0065fc;
+}
 
 
 /* responsive */
@@ -539,7 +554,7 @@ footer ul li {
     }
     .menuitem {
         text-align: center;
-        width: 100%;
+        /* width: 100%; */
         padding-bottom: 15px;
         padding-top: 65px;
     }
@@ -547,13 +562,35 @@ footer ul li {
         border-bottom: solid 2.5px #f2f2f2;
         padding-bottom: 15px;
     }
-    nav li:hover {
+    /* nav li:hover {
         border-bottom: 2px solid #0065FC;
-    }
+        border-top: 2.5px white transparent;
+    } */
+
+    nav ul li:hover {
+        border-bottom: solid 2.5px #0065fc;
+        border-top: solid 2.5px transparent;
+        padding-bottom: 10px;
+      }
 
     .sinscrire {
         margin-right: 25px;
+        
     }
+    .searchbutton{
+        display: none;
+    }
+
+    #searchbutton{
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background-color: #0065fc;
+    }
+
     .filtertitle {
         width: 100%;
     }
@@ -669,5 +706,11 @@ footer h6{
     /* font-size: 4.5vmax; */
 }
 
+}
+@media screen and (min-width: 500px) and (max-width: 5000px) {
 
+    #searchbutton {
+    color: transparent;
+    background-color: transparent;
+}
 }
