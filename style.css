@@ -609,9 +609,9 @@ footer ul li {
         width: 45%;
         margin: 0px 10px 0 0px;
     }
-    .etoiles {
+    /* .etoiles {
         margin-top: 10%;
-    }
+    } */
     .Hebergements {
         display: flex;
         margin: 0;
@@ -724,6 +724,16 @@ footer h6{
         cursor: pointer;
         color: white;
         background-color: #0065fc;
+    }
+
+    .boxactivités1{
+        width: 77%;
+        margin-left: 10%;
+        margin-bottom: 40px ;
+    }
+
+    .image1{
+        margin-bottom: 40px;
     }
 }
 
